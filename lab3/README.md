@@ -1,70 +1,53 @@
 Global Cars Data Analysis Project
-This project focuses on performing an Exploratory Data Analysis (EDA) on a comprehensive dataset of global cars. It aims to uncover trends in the automotive industry, analyze pricing factors, and evaluate engine performance and fuel efficiency across different brands and manufacturing countries.
+This project focuses on performing a comprehensive Exploratory Data Analysis (EDA) on a global car dataset. It aims to uncover trends in the automotive industry, analyze pricing factors, and evaluate engine performance and fuel efficiency across different brands and manufacturing countries.
 
 📁 Repository Structure
-global_cars_enhanced.xlsx: The primary dataset containing detailed specifications of various car models.
+global_cars_enhanced.xlsx: The primary dataset containing detailed specifications of various car models including technical specs and market categories.
 
-lab3.ipynb: A Jupyter Notebook containing the complete Python workflow, including data cleaning, preprocessing, and visualization.
+lab3.ipynb: A Jupyter Notebook containing the complete Python workflow, from data cleaning to advanced visualization.
 
 📊 Dataset Overview
-The dataset includes several key features for analysis:
+The dataset provides a wide range of features used for the analysis:
 
-Car Identification: Car_ID, Brand, Manufacturing_Country.
+Identification: Car_ID, Brand, Manufacturing_Country.
 
 Technical Specs: Engine_CC, Horsepower, Transmission, Fuel_Type, Body_Type.
 
-Performance: Mileage_km_per_l, Efficiency_Score, HP_per_CC.
+Performance Metrics: Mileage_km_per_l, Efficiency_Score, HP_per_CC.
 
-Market Data: Price_USD, Manufacture_Year, Car_Age, Price_Category.
+Market Features: Price_USD, Manufacture_Year, Car_Age, Price_Category.
 
 🛠 Project Workflow
-The analysis in the notebook follows these steps:
+The analysis is structured into three main phases:
 
 1. Data Cleaning & Preprocessing
-Header Correction: Fixed issues where the first row of the Excel file was treated as data.
+Structural Fixes: Corrected header alignment and removed redundant rows.
 
-Handling Missing Values: Checked for null values and duplicates to ensure data integrity.
+Data Integrity: Handled missing values and identified duplicate records.
 
-Type Conversion: Converted relevant columns (Price, Horsepower, Year, etc.) into numeric formats for calculation.
+Type Casting: Converted categorical strings into numerical formats (float/int) to enable statistical computations.
 
 2. Descriptive Statistics
-Generated a statistical summary (Mean, Median, Std Dev) for all numerical features to understand the data distribution.
+Performed a deep dive into the dataset’s central tendencies (Mean, Median) and dispersion (Standard Deviation) to understand the general characteristics of the car market.
 
 3. Data Visualization (EDA)
 Univariate Analysis:
 
-Distribution of car prices to identify market segments.
+Visualizing the distribution of Car Prices to identify common price points.
 
-Distribution of Horsepower to understand engine performance trends.
+Analyzing Horsepower distribution to see the prevalence of high-performance vs. economy engines.
 
 Bivariate Analysis:
 
-Average car price based on Fuel Type.
+Evaluating the relationship between Fuel Type and Average Price.
 
-Comparison of car prices across different Brands.
+Investigating how different Brands compare in terms of market valuation.
 
-Relationship between car age and pricing.
-
-🚀 Getting Started
-To run this project locally, follow these steps:
-
-Clone the repository:
-
-Bash
-git clone https://github.com/your-username/global-cars-analysis.git
-Install dependencies:
-
-Bash
-pip install pandas numpy matplotlib seaborn openpyxl
-Run the Notebook:
-Open lab3.ipynb using Jupyter Notebook or VS Code to view the analysis and charts.
+Analyzing the impact of Car Age on the total cost.
 
 📈 Key Insights
-Identify which brands dominate the luxury vs. budget categories.
+Identification of luxury vs. budget brand positioning.
 
-Analysis of how fuel type (Petrol, Diesel, Hybrid, etc.) affects the resale value and price.
+Understanding how fuel efficiency scores relate to engine size across different manufacturing regions.
 
-Correlation between engine size (CC) and fuel efficiency.
-
-Suggested GitHub Topics:
-python data-analysis eda matplotlib seaborn automotive-data pandas
+Visual confirmation of price depreciation trends over time.
