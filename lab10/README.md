@@ -1,4 +1,4 @@
-# CIS307 – Lab 12: Support Vector Machines (SVM)
+# CIS307 – Lab 10: Support Vector Machines (SVM)
 
 ## Overview
 This lab demonstrates how to build and evaluate a Support Vector Machine (SVM) classifier using Python.
